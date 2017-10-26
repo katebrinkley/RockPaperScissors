@@ -30,3 +30,13 @@
 //Math.floor(Math.random() * maxNumber)
 
 /* FRESH START */
+ 
+
+$(document).ready(function() {
+	var computerInput = Math.floor(Math.random() * 3);
+	var options = ["rock", "paper", "scissors"];
+
+	//var something = $("").val();
+	console.log(computerInput);
+	}
+);
