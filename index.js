@@ -1,4 +1,4 @@
-var userInput = document.getElementsByTagName ('button');
+/* var userInput = document.getElementsByTagName ('button');
 
 
 	for(var i=0; i < userInput.length; i++) { 
@@ -26,7 +26,7 @@ var userInput = document.getElementsByTagName ('button');
 	    	
 	    } 
 	} 
-}
- 
- 
+} */
 //Math.floor(Math.random() * maxNumber)
+
+/* FRESH START */
