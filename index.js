@@ -33,10 +33,23 @@
  
 
 $(document).ready(function() {
-	var computerInput = Math.floor(Math.random() * 3);
+	var randomNumber = Math.floor(Math.random() * 3);
 	var options = ["rock", "paper", "scissors"];
+	//var buttonClick = this.getAttribute('id'); 
+	var computerInput = options[randomNumber];
+
+	$('#rock').click(function() {
+		//var userInput = $('button').val();
+		//alert("works");
+		if(computerInput === "paper") {
+	    		console.log('cpu wins');
+		} else if (computerInput === 'scissors') {
+			console.log('user wins');
+		} else if (computerInput === 'rock') {
+			console.log('its a tie');
+		}
 
 	//var something = $("").val();
-	console.log(computerInput);
-	}
-);
+	
+	})
+});
